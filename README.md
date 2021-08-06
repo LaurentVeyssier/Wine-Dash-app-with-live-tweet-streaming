@@ -15,4 +15,11 @@ Replicate the below structure
 
 ![image](https://user-images.githubusercontent.com/68251051/128543968-7128835e-d1cb-4eac-b7f9-a39ebeba5ee2.png)
 
+![image](https://user-images.githubusercontent.com/68251051/128544206-26afc150-16cc-4b4e-bdc8-53f715b2f75f.png)
+
+![image](https://user-images.githubusercontent.com/68251051/128544248-40c921c3-8b13-4338-a07b-62e5d3e7209c.png)
+
+![image](https://user-images.githubusercontent.com/68251051/128544294-3147c123-8bbd-468f-94f4-7cf29691d85b.png)
+
+
 # How to run the app
