@@ -11,7 +11,8 @@ The initial code can be found [here](https://github.com/bendgame/DashApp) and ha
 
 # App structure
 
-Please follow the below structure
+Replicate the below structure
+
 ![image](https://user-images.githubusercontent.com/68251051/128543968-7128835e-d1cb-4eac-b7f9-a39ebeba5ee2.png)
 
 # How to run the app
