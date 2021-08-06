@@ -11,7 +11,7 @@ import sqlite3
 from app import app
 
 from tabs import tab1, tab2
-from database import transforms #, tweepystream
+from database import transforms
 
 df = transforms.df
 
