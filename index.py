@@ -144,5 +144,6 @@ if __name__ == '__main__':
     app.run_server(port=port, host="0.0.0.0")
     
 '''    
+# SIMPLE LAUNCH FORMAT - NEED TO OPEN WINDOW
 if __name__ == '__main__':
     app.run_server(debug = True)'''
