@@ -23,13 +23,17 @@ Replicate the below structure
 
 # Required modules
 the following modules will be specifically required
-- dash
-- plotly
-- tweepy
+- dash (for the dashboard)
+- plotly (for visualize data into the dashboard)
+- tweepy (to stream live tweets)
+- sqlite3 (for the kaggle wine database)
 
 A twitter dev account is necessary and a twitter API app should be created. The credentials should be used and stored in the config.py file.
 
 ![image](https://user-images.githubusercontent.com/68251051/128545257-2eed0d16-790c-4764-b3fc-8931bfb8a919.png)
+
+
+Finally the wine database can be found on the author's github winapp repository (link above).
 
 # How to run the app
 The streaming program and the dash application must be run in parallel. The streaming app should be run in one instance `python tweepystream.py` then the dash app should be run in another instance `python index.py`.
