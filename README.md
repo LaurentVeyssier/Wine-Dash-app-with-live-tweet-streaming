@@ -24,7 +24,7 @@ Replicate the below structure
 # Required modules
 the following modules will be specifically required
 - dash (for the dashboard)
-- plotly (for visualize data into the dashboard)
+- plotly (to visualize data within the interactive dashboard)
 - tweepy (to stream live tweets)
 - sqlite3 (for the kaggle wine database)
 
