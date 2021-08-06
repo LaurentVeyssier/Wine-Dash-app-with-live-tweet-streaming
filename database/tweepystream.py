@@ -10,10 +10,8 @@ import time
 import datetime
 
 #import the API keys from the config file.
-#from database.config import con_key, con_sec, a_token, a_secret
 from config import con_key, con_sec, a_token, a_secret
 
-#conn = sqlite3.connect(r"database\wine_data.sqlite")
 conn = sqlite3.connect(r"wine_data.sqlite")
 c = conn.cursor()
 
@@ -51,6 +49,8 @@ while True:
         auth.set_access_token(a_token, a_secret)
         twitterStream = tweepy.Stream(auth, WineListener())        
         twitterStream.filter(track=['wine']) #####################################
+        '''Notice the twitterstream.filter uses track to find keywords in tweets. 
+        If you want to follow a specific user’s tweets, use .filter(follow=[“”]).'''
 
     except Exception as e:
         print(str(e))
